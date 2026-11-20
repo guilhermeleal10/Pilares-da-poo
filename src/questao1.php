@@ -1,5 +1,4 @@
 "<?php
-// Questão 1 — Abstração: ficha de um livro.
 
 class Livro
 {

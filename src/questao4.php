@@ -1,5 +1,4 @@
 <?php
-// Questão 4 — Encapsulamento: salário privado com getter e setter.
 
 class Funcionario
 {

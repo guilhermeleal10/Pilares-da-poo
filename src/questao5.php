@@ -1,5 +1,5 @@
 <?php
-// Questão 5 — Herança: Aluno herda características de Pessoa.
+
 
 class Pessoa
 {

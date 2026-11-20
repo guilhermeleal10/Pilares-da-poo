@@ -1,5 +1,4 @@
 <?php
-// Questão 8 — Polimorfismo: Vendedor e Gerente calculam bônus diferentes.
 
 class Funcionario
 {

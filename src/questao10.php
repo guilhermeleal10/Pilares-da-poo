@@ -1,5 +1,4 @@
 <?php
-// Questão 10 — Os quatro pilares juntos: usuários com senha privada e permissões.
 
 class Usuario
 {
@@ -15,7 +14,6 @@ class Usuario
     public function setSenha($senha)
     {
         if (strlen($senha) >= 8) {
-            // A senha é armazenada como hash, não em texto puro.
             $this->senha = password_hash($senha, PASSWORD_DEFAULT);
         } else {
             echo "A senha precisa ter pelo menos 8 caracteres.\n";

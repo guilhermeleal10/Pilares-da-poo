@@ -1,5 +1,4 @@
 <?php
-// Questão 7 — Polimorfismo: cada forma calcula sua área de maneira diferente.
 
 class Forma
 {

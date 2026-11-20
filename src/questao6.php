@@ -1,5 +1,5 @@
 <?php
-// Questão 6 — Herança: Carro e Moto herdam de Veiculo.
+
 
 class Veiculo
 {

@@ -1,5 +1,4 @@
 <?php
-// Questão 9 — Os quatro pilares juntos: Animal, Cachorro, Gato e Passaro.
 
 class Animal
 {

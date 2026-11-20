@@ -1,5 +1,4 @@
 <?php
-// Questão 2 — Abstração: produto com aplicação de desconto.
 
 class Produto
 {
