@@ -1,0 +1,42 @@
+<?php
+// Questão 5 — Herança: Aluno herda características de Pessoa.
+
+class Pessoa
+{
+    public $nome;
+    public $idade;
+
+    public function __construct($nome, $idade)
+    {
+        $this->nome = $nome;
+        $this->idade = $idade;
+    }
+
+    public function apresentar()
+    {
+        echo "Nome: {$this->nome}\n";
+        echo "Idade: {$this->idade}\n";
+    }
+}
+
+class Aluno extends Pessoa
+{
+    public $matricula;
+
+    public function __construct($nome, $idade, $matricula)
+    {
+        parent::__construct($nome, $idade);
+        $this->matricula = $matricula;
+    }
+
+    public function exibirCadastro()
+    {
+        $this->apresentar();
+        echo "Matrícula: {$this->matricula}\n";
+    }
+}
+
+$aluno = new Aluno("Mariana", 20, "2026A001");
+
+echo "=== CADASTRO ESCOLAR ===\n";
+$aluno->exibirCadastro();
